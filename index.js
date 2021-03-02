@@ -11,6 +11,8 @@ var host = "localhost:5433"
 var database = "gisdb" // database name
 var conString = "postgres://"+username+":"+password+"@"+host+"/"+database; // Your Database Connection
 
+
+
 // Set up your database query to display GeoJSON
 var data = "SELECT * FROM a26-10_27-g_sedimentdisasterhazardarea_surface";
 
