@@ -4,8 +4,6 @@ var router = express.Router(); // setup usage of the Express router engine
 /* PostgreSQL and PostGIS module and connection setup */
 const { Client, Query } = require('pg')
 
-
-
 // Setup connection
 var username = "postgres" // sandbox username
 var password = "53320703" // read only privileges on our table
