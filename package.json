@@ -1,9 +1,10 @@
 {
   "name": "mkgisapp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build --public-url . index.html"
   },
@@ -14,6 +15,22 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
-    "pg": "^8.5.1"
-  }
+    "pg": "^8.5.1",
+    "semver": "^7.3.4"
+  },
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naoyannn/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naoyannn/test/issues"
+  },
+  "homepage": "https://github.com/Naoyannn/test#readme"
 }
