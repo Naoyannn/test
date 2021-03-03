@@ -1,3 +1,4 @@
+
 {
   "name": "mkgisapp",
   "version": "1.0.0",
@@ -15,12 +16,14 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
+    "ol": "^6.5.0",
     "pg": "^8.5.1",
     "semver": "^7.3.4"
   },
   "description": "",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "parcel": "^2.0.0-beta.1",
     "parcel-bundler": "^1.12.4"
   },
   "repository": {
@@ -34,3 +37,4 @@
   },
   "homepage": "https://github.com/Naoyannn/test#readme"
 }
+
