@@ -13,6 +13,8 @@ var conString = "postgres://"+username+":"+password+"@"+host+"/"+database; // Yo
 
 
 
+//
+
 // Set up your database query to display GeoJSON
 var data = "SELECT * FROM a26-10_27-g_sedimentdisasterhazardarea_surface";
 
